@@ -6,7 +6,7 @@ Compile Typst documents with build tools, compile-on-save, and PDF viewer integr
 
 - **Compilation**: Build documents using the `typst` compiler with configurable output format.
 - **Compile-on-save**: Automatically recompile when the file is saved.
-- **PDF viewing**: Open output PDFs internally via [pdf-viewer](https://web.pulsar-edit.dev/packages/pdf-viewer).
+- **PDF viewing**: Open output PDFs internally via [pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer).
 - **Linter integration**: Error and warning reporting via `linter-indie`. With [linter-bundle](https://github.com/asiloisad/pulsar-linter-bundle), errors display clickable references to source locations.
 - **Multiple builds**: Compile multiple files simultaneously with independent build states.
 - **Built-in installer**: Download the Typst binary directly from GitHub releases.
@@ -45,12 +45,12 @@ Commands available in `atom-workspace`:
 
 Commands available in `atom-text-editor[data-grammar~="typst"]`:
 
-- `typst-tools:compile`: <kbd>F5</kbd> compile the current Typst document,
-- `typst-tools:watch`: <kbd>Alt+F5</kbd> toggle compile-on-save mode for the current file,
-- `typst-tools:interrupt`: <kbd>Ctrl+F5</kbd> stop the current build process for the active file,
-- `typst-tools:interrupt-all`: <kbd>Ctrl+F6</kbd> stop all running build processes,
-- `typst-tools:clean-linter`: <kbd>F6</kbd> clear all linter messages,
-- `typst-tools:open-pdf`: <kbd>F7</kbd> open the generated PDF in Pulsar,
+- `typst-tools:compile`: compile the current Typst document,
+- `typst-tools:watch`: toggle compile-on-save mode for the current file,
+- `typst-tools:interrupt`: stop the current build process for the active file,
+- `typst-tools:interrupt-all`: stop all running build processes,
+- `typst-tools:clean-linter`: clear all linter messages,
+- `typst-tools:open-pdf`: open the generated PDF in Pulsar,
 - `typst-tools:list-fonts`: list all fonts available to Typst.
 
 ## Status bar
@@ -71,7 +71,7 @@ The status bar item shows the current build state with a live timer:
 
 ## Integration with pdf-viewer
 
-This package works seamlessly with the [pdf-viewer](https://web.pulsar-edit.dev/packages/pdf-viewer) package:
+This package works seamlessly with the [pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer) package:
 
 - **Status bar**: The Typst status bar remains visible when viewing PDFs, allowing you to compile, open PDF, or interrupt builds directly from the PDF viewer.
 - **Build waiting**: If you open a PDF while a build is in progress, the package will wait for completion and automatically open the updated PDF.
