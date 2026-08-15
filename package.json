@@ -11,7 +11,7 @@
     "compile",
     "watch"
   ],
-  "repository": "https://github.com/asiloisad/pulsar-typst-tools",
+  "repository": "https://github.com/asiloisad-pulsar/typst-tools",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"

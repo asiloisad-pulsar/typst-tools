@@ -6,8 +6,8 @@ Compile Typst documents with build tools, compile-on-save, and PDF viewer integr
 
 - **Compilation**: Build documents using the `typst` compiler with configurable output format.
 - **Compile-on-save**: Automatically recompile when the file is saved.
-- **PDF viewing**: Open output PDFs internally via [pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer).
-- **Linter integration**: Error and warning reporting via `linter-indie`. With [linter-bundle](https://github.com/asiloisad/pulsar-linter-bundle), errors display clickable references to source locations.
+- **PDF viewing**: Open output PDFs internally via [pdf-viewer](https://github.com/asiloisad-pulsar/pdf-viewer).
+- **Linter integration**: Error and warning reporting via `linter-indie`. With [linter-bundle](https://github.com/asiloisad-pulsar/linter-bundle), errors display clickable references to source locations.
 - **Multiple builds**: Compile multiple files simultaneously with independent build states.
 - **Built-in installer**: Download the Typst binary directly from GitHub releases.
 
@@ -71,7 +71,7 @@ The status bar item shows the current build state with a live timer:
 
 ## Integration with pdf-viewer
 
-This package works seamlessly with the [pdf-viewer](https://github.com/asiloisad/pulsar-pdf-viewer) package:
+This package works seamlessly with the [pdf-viewer](https://github.com/asiloisad-pulsar/pdf-viewer) package:
 
 - **Status bar**: The Typst status bar remains visible when viewing PDFs, allowing you to compile, open PDF, or interrupt builds directly from the PDF viewer.
 - **Build waiting**: If you open a PDF while a build is in progress, the package will wait for completion and automatically open the updated PDF.
