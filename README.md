@@ -13,7 +13,7 @@ Compile Typst documents with build tools, compile-on-save, and PDF viewer integr
 
 ## Installation
 
-To install `typst-tools` search for [typst-tools](https://web.pulsar-edit.dev/packages/typst-tools) in the Install pane of the Pulsar settings or run `ppm install typst-tools`. Alternatively, you can run `ppm install asiloisad/pulsar-typst-tools` to install a package directly from the GitHub repository.
+To install `typst-tools` search for [typst-tools](https://web.pulsar-edit.dev/packages/typst-tools) in the Install pane of the Pulsar settings or run `ppm install typst-tools`. Alternatively, you can run `ppm install asiloisad-pulsar/typst-tools` to install a package directly from the GitHub repository.
 
 ## Installing Typst
 
